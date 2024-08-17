@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica;
+}
+
+header {
+	background-color: aquamarine;
+	padding: 10px;
+	
+} 
+
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav a {
+	border: black solid 5px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
