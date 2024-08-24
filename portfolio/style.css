@@ -1,101 +1,80 @@
 @charset "UTF-8";
 
-/* Color Theme Swatches in Hex */
-.blue-light-1-hex { color: #084F8C; }
-.blue-light-2-hex { color: #1081C7; }
-.blue-light-3-hex { color: #1399CF; }
-.blue-light-4-hex { color: #18ABCC; }
-.blue-light-5-hex { color: #27D5E8; }
-
-:root {
-	--cor1: #084F8C;
-	--cor2: #1081C7;
-	--cor3: #1399CF;
-	--cor4: #18ABCC;
-	--cor5: #27D5E8;
-	--header: #27d5e83d;
-	--links: #27d5e887;
-}
+/*
+#011C40
+#011126
+#032859
+#074973
+#08678C
+*/
 
 * {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 }
 
 body {
-	font-family: Verdana, Arial, Helvetica;
-	background: black url('imagens/fundo.jpg') center top fixed;
-	background-size: cover;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	background-image: linear-gradient(to left, #011C40, #011126);
 }
 
-header {
-	background-color: var(--header);
+h1, h2 {
+	color: white;
 	padding: 10px;
-} 
-span {
+}
+
+strong {
+	color: #08678C;
+}
+
+.github {
+	color: #08678C;
+	border: 5px solid #08678C;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+nav {
+	color: white;
+	padding: 10px;
+	
+}
+
+li {
+	list-style-type: none;
+	border: 1px solid white;
+	display: inline-block;
+	font-weight: bold;
+
+}
+
+li > a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.a {
+	padding: 10px;
+}
+
+.conteudo {
 	font-size: 2em;
 }
 
-nav > ul {
- list-style-type: none;
- padding-top: 10px;
-}
-
-nav > ul > li {
-	display: inline-block;
-}
-
-
-nav a {
-	color: white;
-	text-decoration: none;
-	padding: 5px 0px 5px 0px;
-	border: transparent solid 3px;
-}
-
-nav a:hover {
-	transition-duration: 0.2s;
-	border-radius: 12px;
-	background-color: var(--links);
-	color: white;
-}
-
-nav {
-	padding-bottom: 5px;
-}
-
-.h1 {
-	color: white;
-	text-align: left;
-}
-
-hr {
-	border: white solid 3px;
-	width: 500px;
-	margin: auto;
-	border-radius: 50%;
-	margin-bottom: 20px;
-	color: white;
-}
-
-p {
-	padding: 10px;
-	max-width: 700px;
-	text-align: center;
-}
-
 main {
-	background-color: #ffffffb0;;
-	max-width: 700px;
-	margin: auto;
-	margin-bottom: 10px;
+	position: absolute;
+    top: 30%;
 }
 
-h1 {
-	text-align: center;
-	color: white;
-}
-
-.about {
-	padding: 20px;
+img {
+	width: 50vh;
+    height: 50vh;
+    position: absolute;
+    left: 130%;
+    top: -20%;
+    border-radius: 100%;
 }
