@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+@media (max-width: 450px) {
+ 		.conteudo > .imagem > img {
+ 			position: absolute;
+    		left: 17.5%;
+    		top: 115%;
+    		height: 30vh;
+    		width: 30vh;
+		}
+
+		body {
+			position: relative;
+		}
+
+	.github {
+		font-size: 0.5em;
+		
+	}
+	}
 /*
 #011C40
 #011126
@@ -70,8 +88,8 @@ main {
     top: 30%;
 }
 
-img {
-	width: 50vh;
+div.imagem > img {
+    width: 50vh;
     height: 50vh;
     position: absolute;
     left: 130%;
